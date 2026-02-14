@@ -65,7 +65,7 @@ def run():
         html += '</div>'
 
         resend.Emails.send({
-            "from": "AksoumBot <onboarding@resend.dev>",
+            "from": "AksoumBot <bot@gangdessine.com>",
             "to": ["sacha.okonowski@gmail.com"],
             "subject": f"📚 Planning : {total} BD cette semaine",
             "html": html
